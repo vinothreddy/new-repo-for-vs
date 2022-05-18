@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: 2010-09-09
+Resources:
+  Ec2Instance:
+    Type: AWS::EC2::Instance 
+    Properties:
+      InstanceType: t2.micro
+      KeyName: vinothpro
+      ImageId:  ami-079b5e5b3971bd10d
+      SecurityGroupIds: [sg-032ab65930cf9ff40]
+      SubnetId: subnet-00db15637393448d5
+
+    
