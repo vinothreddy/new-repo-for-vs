@@ -3,7 +3,7 @@ Resources:
   Ec2Instance:
     Type: AWS::EC2::Instance 
     Properties:
-      InstanceType: t2.micro
+      InstanceType: t2.medium
       KeyName: vinothpro
       ImageId:  ami-079b5e5b3971bd10d
       SecurityGroupIds: [sg-032ab65930cf9ff40]
